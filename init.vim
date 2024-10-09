@@ -1,6 +1,5 @@
 :set number
 :set relativenumber
-:set mouse=a
 :set tabstop=2
 
 call plug#begin()
@@ -10,15 +9,18 @@ Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 Plug 'https://github.com/preservim/nerdtree'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'https://github.com/vim-airline/vim-airline'
+Plug	'https://github.com/rafi/awesome-vim-colorschemes'
 Plug 'https://github.com/kabouzeid/nvim-jellybeans'
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'npm ci'}
 Plug 'https://github.com/nvim-lua/plenary.nvim'
 Plug 'https://github.com/BurntSushi/ripgrep'
 Plug 'https://github.com/nvim-telescope/telescope.nvim'
+Plug 'https://github.com/ryanoasis/vim-devicons'
 
 call plug#end()
 
-colorscheme jellybeans
+se	background=dark
+colorscheme iceberg
 
 let mapleader = ' '
 

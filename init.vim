@@ -19,7 +19,7 @@ Plug 'https://github.com/ryanoasis/vim-devicons'
 
 call plug#end()
 
-se	background=dark
+set	background=dark
 colorscheme iceberg
 
 let mapleader = ' '
